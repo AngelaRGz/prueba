@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio Responsivo: Imágenes Fluidas + Flexbox + Media Queries</title>
+  <link rel="stylesheet" href="estilosTarea.css">
+</head>
+<body>
+
+  <header>
+    <h1>Diseño Responsivo</h1>
+    <p>Este documento combina las tres tareas: imagen fluida, Flexbox y Media Queries.</p>
+  </header>
+
+  <!-- TAREA 1: Imagen fluida -->
+  <section class="seccion-imagen">
+    <h2>1. Imagen Fluida</h2>
+    <p>La imagen de abajo tiene <code>max-width: 100%</code> y <code>height: auto</code>. No se desborda del contenedor en ninguna pantalla.</p>
+    
+    <div class="contenedor-imagen">
+      <img 
+        src="imagenes/paisaje.png" 
+        alt="Paisaje"
+        class="imagen-fluida">
+    </div>
+  </section>
+
+  <!-- TAREA 2: Maquetación con Flexbox -->
+  <section class="seccion-flexbox">
+    <h2>2. Maquetación con Flexbox</h2>
+    <p>Contenedor con tres elementos. En pantallas anchas se alinean horizontalmente. En pantallas estrechas se apilan verticalmente gracias a <code>flex-wrap: wrap</code>.</p>
+    
+    <div class="contenedor-flex">
+      <div class="caja">Elemento 1</div>
+      <div class="caja">Elemento 2</div>
+      <div class="caja">Elemento 3</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Archivo HTML + estilos externos (estilosTarea.css)</p>
+  </footer>
+
+</body>
+</html>
